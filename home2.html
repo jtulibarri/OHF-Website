@@ -1,0 +1,67 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>One Halal Farm</title>
+
+
+
+
+<style type="text/css">
+#wrapper {
+	display: block;
+	height: 720px;
+	width: 960px;
+}
+#container {
+	background-color: #FFC;
+	display: block;
+	float: left;
+	height: 720 px;
+	width: 960px;
+	overflow: auto;
+}
+#prev {
+	background-image:url(../Photos/Logo%20Image.png);
+	background-repeat:no-repeat;
+	background-position:center center;
+	display: block;
+	float: left;
+	height: 720 px;
+	width: 100 px;
+	position: relative:
+	z-index: 99;
+
+}
+#next {
+	background-image:url(../Photos/1.jpg);
+	background-repeat: no repeat;
+	background-position: center center;
+	display: block;
+	float: right;
+	height: 720px;
+	width: 100px;
+	position: relative;
+	z-index: 99;
+}
+#slider {
+	display: block;
+	float: left;
+	height: 720px;
+	width: 960px;
+	overflow: hidden;
+	position: absolute;
+}
+</style>
+</head>
+
+<body>
+<div id="wrapper">
+  <div id="container">
+  	<div class="controller" id="prev"></div>
+    <div id="slider"><img src="../Photos/1.jpg" width="556" height="417" alt=""/><img src="../Photos/2.jpg" width="960" height="720" alt=""/><img src="../Photos/3.jpg" width="960" height="720" alt=""/></div>
+    <div class="controller" id="next"></div>
+  </div>
+</div>
+</body>
+</html>
